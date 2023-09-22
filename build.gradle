@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version= '1.8.21'
+    repositories
+{
+        // Make sure that you have the following two repositories
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+}
+dependencies
+            {
+                classpath "com.android.tools.build:gradle:8.0.1"
+                classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+                classpath 'com.google.gms:google-services:4.3.15'
+            }
+    // This block encapsulates custom properties and makes them available to all
+// modules in the project. The following are only a few examples of the types
+// of properties you can define.
+    ext {
+        sdkVersion = 33
+        // You can also create properties to specify versions for dependencies.
+        // Having consistent versions between modules can avoid conflicts with behavior.
+        appcompatVersion = "1.6.1"
+    }
+    }
+allprojects {
+    repositories {
+      //  google()   Google's Maven repository
+       // mavenCentral()   Maven Central repository
+    }
+}
+task clean(type: Delete)
+{
+    delete rootProject.buildDir
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200156191106",
+    "project_id": "squid-games-3feda",
+    "storage_bucket": "squid-games-3feda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200156191106:android:61780ee823ce1bc770d79b",
+        "android_client_info": {
+          "package_name": "com.eazyalgo.squidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200156191106-3mo2orcauu0smpbn3ghd6gmonjr5op9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe2lpx2loHMZ_2Wkqk3IzdCTymPkVKfkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200156191106-3mo2orcauu0smpbn3ghd6gmonjr5op9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
